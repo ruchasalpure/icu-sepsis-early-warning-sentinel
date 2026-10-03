@@ -1,4 +1,0 @@
-spec: nanobot/v1
-name: icu-sepsis-early-warning-sentinel
-runtime: python3.11
-entrypoint: agent.py

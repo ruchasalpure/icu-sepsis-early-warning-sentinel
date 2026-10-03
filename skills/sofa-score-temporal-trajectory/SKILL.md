@@ -1,17 +1,25 @@
 ---
-name: "sofa-score-temporal-trajectory"
-description: "Applies recurrent time-series hazard modeling on vitals streams while minimizing false-positive alert fatigue"
-version: "1.0.0"
-category: "healthcare"
+name: sofa-score-temporal-trajectory
+description: Specialized capability for Icu Sepsis Early Warning Sentinel.
+license: MIT
+allowed-tools: ""
+metadata:
+  author: "Rucha Salpure"
+  version: "1.0.0"
+  category: healthcare
 ---
 
-# Skill: sofa-score-temporal-trajectory
+# Icu Sepsis Early Warning Sentinel — SOFA SCORE TEMPORAL TRAJECTORY Skill
 
-## Overview
-Applies recurrent time-series hazard modeling on vitals streams while minimizing false-positive alert fatigue.
+## Purpose
+The `sofa-score-temporal-trajectory` capability provides high-assurance execution routines for `Icu Sepsis Early Warning Sentinel`.
 
-## Execution Steps
-1. Parse and validate runtime parameters against the formal domain schema.
-2. Execute core computational and heuristic analysis pipeline.
-3. Format structured observations for Maker-Checker dual control review.
-4. Log all telemetry and performance metrics to the governance ledger.
+## Execution Workflow
+1. Validate input parameters against typed schemas and invariant constraints.
+2. Ingest contextual metrics and establish a deterministic baseline.
+3. Formulate candidate recommendations with explicit confidence intervals.
+4. Submit draft plans to the independent checker agent for verification.
+
+## Boundary Conditions
+- **Input validation:** Reject non-conforming or malformed payloads before evaluation.
+- **Fail-safe:** Escalate immediately if telemetry indicators exhibit critical anomalies.

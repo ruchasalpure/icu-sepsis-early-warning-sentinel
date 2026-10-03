@@ -1,5 +1,0 @@
-{
-  "name": "icu-sepsis-early-warning-sentinel",
-  "service": "aws-kiro",
-  "version": "1.0.0"
-}

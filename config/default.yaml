@@ -1,6 +1,0 @@
-app:
-  name: "icu-sepsis-early-warning-sentinel"
-  environment: "production"
-  logging:
-    level: "INFO"
-    format: "json"

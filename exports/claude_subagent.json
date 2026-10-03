@@ -1,5 +1,0 @@
-{
-  "name": "icu-sepsis-early-warning-sentinel",
-  "description": "Claude Code subagent for Icu Sepsis Early Warning Sentinel",
-  "prompt": "You are Icu Sepsis Early Warning Sentinel. Execute domain tasks with high precision."
-}
