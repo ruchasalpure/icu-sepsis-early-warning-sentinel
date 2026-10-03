@@ -1,0 +1,8 @@
+{
+  "agent_id": "icu-sepsis-early-warning-sentinel",
+  "protocol": "opencode/v1",
+  "capabilities": [
+    "autonomous",
+    "governed"
+  ]
+}
